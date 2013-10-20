@@ -25,11 +25,11 @@ exports.sendEmail = function(req, res) {
         req.flash('errors', errors);
         res.redirect('/start');
     } else {
-        body = req.body.name + ' asked for a session at ' + moment().format('LLLL') + '\n\n';
+        body = req.body.name + ' at ' + req.body.from ' asked for a session at ' + moment().format('LLLL') + '\n\n';
         body += 'They gave the following comments:\n' + req.body.comments;
 
         postmark.send({
-            "From": req.body.from,
+            "From": "requests@fyi.org.nz",
             "To": "wombleton@gmail.com",
             "Subject": "[Be Resilient] " + req.body.name + " wants you to contact them",
             "TextBody": body,
