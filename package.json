@@ -9,6 +9,8 @@
     "express": "3.4.0",
     "jade": "*",
     "less-middleware": "*",
-    "express-validator": "~0.8.0"
+    "express-validator": "~0.8.0",
+    "postmark": "~0.2.0",
+    "moment": "~2.3.1"
   }
 }
