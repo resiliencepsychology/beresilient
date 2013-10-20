@@ -5917,15 +5917,30 @@ header {
 header .nav > li {
   background-color: #f8f8f8;
 }
-p {
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.jumbotron p {
   margin: 0 0 30px;
   font-size: 1.1em;
   line-height: 1.6;
 }
-.jumbotron {
-  background-color: rgba(255, 255, 255, 0.9);
-}
 section {
   padding: 30px 0 10px;
   background-color: rgba(255, 255, 255, 0.9);
+}
+section p {
+  margin: 0 0 20px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.hs {
+  padding: 40px 0 0;
+  text-align: center;
+}
+.headshot {
+  width: 165px;
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
