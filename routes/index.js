@@ -29,7 +29,7 @@ exports.sendEmail = function(req, res) {
         body += 'They gave the following comments:\n' + req.body.comments;
 
         postmark.send({
-            "From": req.body.email,
+            "From": req.body.from,
             "To": "wombleton@gmail.com",
             "Subject": "[Be Resilient] " + req.body.name + " wants you to contact them",
             "TextBody": body,
