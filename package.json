@@ -11,6 +11,7 @@
     "less-middleware": "*",
     "express-validator": "~0.8.0",
     "postmark": "~0.2.0",
-    "moment": "~2.3.1"
+    "moment": "~2.3.1",
+    "express-flash": "0.0.2"
   }
 }
