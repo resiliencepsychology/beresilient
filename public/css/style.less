@@ -1,5 +1,32 @@
 @import "bootstrap/bootstrap.less";
 
+// http://www.flickr.com/photos/yaranaika/6087843901/
+@bg-color: rgba(255, 255, 255, 0.9);
+
 body {
-    margin: 70px 0 30px;
+    padding: @navbar-height + 30 0;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: @bg-color;
+
+    .nav > li {
+        background-color: #f8f8f8;
+    }
+}
+
+p {
+    margin: 0 0 30px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.jumbotron {
+    background-color: @bg-color;
+}
+
+section {
+    padding: 30px 0 10px;
+    background-color: @bg-color;
 }
