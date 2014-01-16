@@ -1,3 +1,4 @@
+@import "bootswatch.less";
 @import "bootstrap/bootstrap.less";
 
 // http://www.flickr.com/photos/yaranaika/6087843901/
@@ -5,7 +6,7 @@
 
 body {
     padding: @navbar-height + 30 0;
-    background-image: url('/images/bg.jpg');
+    background: #eee url('/images/bg.jpg') no-repeat fixed;
     background-size: cover;
 }
 
@@ -42,14 +43,28 @@ section {
 }
 
 .headshot {
+  img {
     width: 240px;
     border-radius: 50%;
     border: 10px solid white;
     box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    margin: -20px 0 20px;
+  }
 }
 
 form {
     padding-bottom: 30px;
+}
+
+.spaced-container {
+  .row {
+    padding-bottom: 30px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid @gray-light;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
 }
 
 .thanks {
