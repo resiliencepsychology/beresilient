@@ -4,7 +4,6 @@
 */
 
 var express = require('express'),
-  expressValidator = require('express-validator'),
   routes = require('./routes'),
   http = require('http'),
   path = require('path'),
@@ -17,7 +16,6 @@ app.set('view engine', 'jade');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
-app.use(expressValidator());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(require('less-middleware')({ src: __dirname + '/public' }));
