@@ -3,20 +3,29 @@ extends layout
 block content
   section
     .container
-      h1 Resilience Psychology
-      p.lead We are a group of registered Psychologists who are dedicated to improving your physical and emotional well-being. We bring all of our experience and training to meet your needs.
-      p We provide treatment and support for a wide range of issues, including:
-      ul
-        li Anxiety
-        li Depression
-        li Stress
-        li Workplace challenges
-        li Chronic Pain
-        li Adjusting to serious illness or loss
-        li Managing chronic health conditions
-        li Lifestyle management
-      p 
-        a.btn.btn-lg.btn-primary(href='/about') 
-          i.glyphicon.glyphicon-chevron-right
-          | &nbsp;
-          | Arrange an appointment
+      .row
+        .col-sm-5
+          h1 Resilience Psychology
+          p.lead We are a group of registered Psychologists who are dedicated to improving your physical and emotional well-being. We bring all of our experience and training to meet your needs.
+          p We are centrally located in Auckland.
+        .col-sm-6.col-sm-offset-1
+          img.scaled-img(src='/images/team.jpg')
+      .row
+        .col-sm-12
+          p We provide treatment and support for a wide range of issues, including:
+          ul
+            li Anxiety
+            li Depression
+            li Stress
+            li Workplace challenges
+            li Behavioural change
+            li Life's ups and downs
+            li Chronic Pain
+            li Adjusting to serious illness or loss
+            li Managing chronic health conditions
+            li Lifestyle management
+          p 
+            a.btn.btn-block.btn-lg.btn-primary(href='/about') 
+              i.glyphicon.glyphicon-chevron-right
+              | &nbsp;
+              | Arrange an appointment

@@ -6055,6 +6055,13 @@ header {
 header .nav > li {
   background-color: #f8f8f8;
 }
+.scaled-img {
+  max-width: 90%;
+  padding: 2%;
+  margin: 30px 3%;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
 section {
   padding: 30px 0 10px;
   background-color: rgba(255, 255, 255, 0.95);
