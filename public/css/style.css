@@ -6087,6 +6087,9 @@ section li {
 .spaced-container .row:last-child {
   border-bottom: none;
 }
+ul {
+  margin-bottom: 20px;
+}
 blockquote {
   background: white;
   border-radius: 8px;
