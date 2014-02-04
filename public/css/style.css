@@ -6055,12 +6055,17 @@ header {
 header .nav > li {
   background-color: #f8f8f8;
 }
+.lead.alert {
+  border-color: #999999;
+  background: #e6e6e6;
+  text-align: center;
+}
 .scaled-img {
   max-width: 90%;
   padding: 2%;
   margin: 30px 3%;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
+  border-radius: 4px;
 }
 section {
   padding: 30px 0 10px;
