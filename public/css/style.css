@@ -6042,18 +6042,14 @@ td.visible-print {
   }
 }
 body {
-  padding: 80px 0;
-  background: #eeeeee url('/images/bg.jpg') no-repeat fixed;
-  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 h4 {
   font-weight: bold;
 }
 header {
-  background-color: rgba(255, 255, 255, 0.95);
-}
-header .nav > li {
-  background-color: #f8f8f8;
+  background: #f2f2f2;
 }
 .lead.alert {
   border-color: #999999;
@@ -6069,7 +6065,6 @@ header .nav > li {
 }
 section {
   padding: 30px 0 10px;
-  background-color: rgba(255, 255, 255, 0.95);
 }
 section p {
   margin: 0 0 20px;
