@@ -6111,3 +6111,15 @@ blockquote footer {
 blockquote footer:before {
   content: '\2014 \00A0';
 }
+
+.container .jumbotron {
+  border-radius: 24px;
+}
+
+.jumbotron {
+  background-image: -o-linear-gradient(top, #99B8A3 0%, #E6E6E6 100%);
+  background-image: -moz-linear-gradient(top, #99B8A3 0%, #E6E6E6 100%);
+  background-image: -webkit-linear-gradient(top, #99B8A3 0%, #E6E6E6 100%);
+  background-image: -ms-linear-gradient(top, #99B8A3 0%, #E6E6E6 100%);
+  background-image: linear-gradient(to top, #99B8A3 0%, #E6E6E6 100%);
+}
