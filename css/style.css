@@ -6123,6 +6123,13 @@ blockquote footer:before {
   background-image: -ms-linear-gradient(bottom, #73b3f3 0%, #e6e6e6 100%);
   background-image: linear-gradient(to bottom, #73b3f3 0%, #e6e6e6 100%);
 }
+.jumbotron h1 {
+  text-align: center;
+}
+.jumbotron h1 img {
+  display: block;
+  margin: 0 auto;
+}
 
 .navbar-brand img {
   margin-right: 5px;
