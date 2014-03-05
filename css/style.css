@@ -6079,6 +6079,18 @@ section li {
   padding: 40px 0 0;
   text-align: center;
 }
+.minishots li {
+  list-style: none;
+  text-align: center;
+  font-size: 0.9em;
+}
+.minishots img {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  margin: -10px 0 10px;
+}
 .headshot img {
   width: 240px;
   border-radius: 50%;
