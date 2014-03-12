@@ -6125,7 +6125,10 @@ blockquote footer:before {
 }
 
 .container .jumbotron {
-  border-radius: 24px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-bottom: 0;
+  padding-bottom: 21px;
 }
 
 .jumbotron {
@@ -6145,4 +6148,10 @@ blockquote footer:before {
 
 .navbar-brand img {
   margin-right: 5px;
+}
+.groupshot img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
