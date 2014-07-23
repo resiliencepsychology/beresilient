@@ -6155,3 +6155,8 @@ blockquote footer:before {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 }
+.btn[href^=tel]:after, .btn[href^=mailto]:after {
+  content: attr(data-href);
+  display: block;
+  font-size: 14px;
+}
