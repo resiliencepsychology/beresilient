@@ -6149,11 +6149,11 @@ blockquote footer:before {
 .navbar-brand img {
   margin-right: 5px;
 }
-.groupshot img {
-  width: 100%;
+.groupshot {
   margin-bottom: 20px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
+}
+#group-shot {
+  height: 480px;
 }
 .btn[href^=tel]:after, .btn[href^=mailto]:after {
   content: attr(data-href);

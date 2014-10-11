@@ -5,4 +5,7 @@ $(document).ready(function() {
 
     $this.attr('data-href', href.substring(href.indexOf(':') + 1));
   });
+  $('.image-bank img').slideshowify({
+    parentEl: '#group-shot'
+  });
 });
