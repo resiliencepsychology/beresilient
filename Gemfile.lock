@@ -92,4 +92,3 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  thread_safe (= 0.2.0)
